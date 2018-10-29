@@ -3,8 +3,11 @@
     Execution: python parse.py [file to print to] """
 
 from music21 import *
-example = converter.parse('example.mid')
-data = example.parts[0]
+example = converter.parse('beethoven_hammerklavier_1.mid')
+for i in example.parts:
+    print(i)
+data = example.parts[3]
+print(data)
 # data.show()
 
 print ("%s,%s,%s,%s, %s" % ("Note/Rest", "Octave", "Len","Offset", "Velocity"))
