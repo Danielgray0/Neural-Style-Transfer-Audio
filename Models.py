@@ -8,8 +8,9 @@ import numpy as np
 from mido import MidiFile,MidiTrack,Message
 from midi2audio import FluidSynth
 import os
+import copy as cp
 
-n_prev = 30
+n_prev = 400
 def PrepareData(file):
     mid=MidiFile(file)
     notes = []
@@ -60,14 +61,61 @@ filepath="./Checkpoints/checkpoint_model_{epoch:02d}.hdf5"
 model_save_callback = ModelCheckpoint(filepath, monitor='val_acc',
                                       verbose=1, save_best_only=False,
                                       mode='auto', period=5)
+# X,Y,note_max,note_min,velocities_max,velocities_min,seed=PrepareData('./Nintendo_-_Pokemon_Fire_Red_Route_1_Piano_Cover_Hard_Version.mid')
+# model.fit(np.array(X),np.array(Y),32,10,verbose=1,callbacks=[model_save_callback])
+
 for f in os.listdir('./Midi_Data'):
     if f.endswith('.mid'):
         file ='./Midi_Data/' + f
         X, Y, note_max, note_min, velocities_max, velocities_min, seed = PrepareData(
-        file)   
-        model.fit(np.array(X), np.array(Y), 32, 5, verbose=1, callbacks=[model_save_callback])
+        file)
+        test = 0
+        model.fit(np.array(X), np.array(Y), 128, 1, verbose=1, callbacks=[model_save_callback])
+        # model.train_function=None
+        # model.test_function =None
+        # model.metrics_tensors += model.output
+        # model.metrics_name += ['predictions']
 
-prediction = []
+        x = seed
+        x = np.expand_dims(x, axis=0)
+        prediction = []
+        for i in range(300):
+            preds = model.predict(x)
+            x = np.squeeze(x)
+            x = np.concatenate((x, preds))
+            x = x[1:]
+            x = np.expand_dims(x, axis=0)
+            preds = np.squeeze(preds)
+            prediction.append(preds)
+        for pred in prediction:
+            # Undo the preprocessing
+            pred[0] = int((pred[0] / 2) * (note_max - note_min) + (note_min + note_max) / 2)
+            pred[1] = int((pred[1] / 2) * (velocities_max - velocities_min) + (velocities_min + velocities_max) / 2)
+            if pred[0] < 24:
+                pred[0] = 24
+            elif pred[0] > 102:
+                pred[0] = 102
+            if pred[1] < 0:
+                pred[1] = 0
+            elif pred[1] > 127:
+                pred[1] = 127
+        mid = cp.deepcopy(MidiFile())
+        track = MidiTrack()
+
+        t = 0
+        for note in prediction:
+            # 147 means note_on
+            note = np.asarray([147, note[0], note[1]])
+            bytes = note.astype(int)
+            msg = Message.from_bytes(bytes[0:3])
+            t += 1
+            msg.time = t
+            track.append(msg)
+
+        mid.tracks.append(track)
+        mid.save('Generated_file'+str(test)+'.mid')
+        test=test+1
+
 x = seed
 x = np.expand_dims(x, axis=0)
 
@@ -106,7 +154,9 @@ for note in prediction:
     track.append(msg)
 
 mid.tracks.append(track)
-fs = FluidSynth()
+mid.save('Generated_song_epoch =10.mid')
+
+
 
 
 
