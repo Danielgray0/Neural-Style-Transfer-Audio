@@ -2,40 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0275ee35-07de-45b1-8d7e-9fc549d03b76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Checkpoints/checkpoint_model_05.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Checkpoints/checkpoint_model_05.hdf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/appass_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/appass_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/appass_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_hammerklavier_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_hammerklavier_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_hammerklavier_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_hammerklavier_4.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_les_adieux_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_les_adieux_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_les_adieux_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus10_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus10_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus10_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus22_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus22_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus22_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus22_4.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus90_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/beethoven_opus90_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/elise.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/example.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/mond_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/mond_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/mond_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Midi parse/parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/pathetique_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/waldstein_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/waldstein_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi parse/waldstein_3.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi_Data/pathetique_1.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Midi_Data/pathetique_2.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/GAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_file0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_file299.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_song_epoch =10.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch-wavenet/train_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch-wavenet/train_script.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,40 +20,45 @@
     <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$Models.coverage" NAME="Models Coverage Results" MODIFIED="1540779843241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$setup.coverage" NAME="setup Coverage Results" MODIFIED="1540778659279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-midi" />
     <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$Util.coverage" NAME="Util Coverage Results" MODIFIED="1540654507756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Midi parse" />
+    <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$util.coverage" NAME="util Coverage Results" MODIFIED="1540839586611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$parse__1_.coverage" NAME="parse (1) Coverage Results" MODIFIED="1540769258157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$test.coverage" NAME="test Coverage Results" MODIFIED="1540781294380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$test.coverage" NAME="test Coverage Results" MODIFIED="1540829254085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$SpecModels.coverage" NAME="SpecModels Coverage Results" MODIFIED="1540925512915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$parse.coverage" NAME="parse Coverage Results" MODIFIED="1540768801824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Midi parse" />
-    <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$GAN.coverage" NAME="GAN Coverage Results" MODIFIED="1540827373408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$GAN.coverage" NAME="GAN Coverage Results" MODIFIED="1540830404411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Neural_Style_Transfer_Audio$train_script.coverage" NAME="train_script Coverage Results" MODIFIED="1540869960247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch-wavenet" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-120391144">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="18" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="18" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9895" />
+          <entry key="py" value="10692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9895" />
+          <entry key="Python" value="10692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -92,10 +70,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="31" column="39" selection-start-line="28" selection-start-column="3" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="2340">
+              <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
               <folding>
                 <element signature="e#1#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpecModels.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-113">
+              <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+              <folding>
+                <element signature="e#21#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GAN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+              <folding>
+                <element signature="e#1#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,44 +106,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="2" column="17" selection-start-line="2" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GAN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#1#13#0" expanded="true" />
-                <marker date="1540827471907" expanded="true" signature="1242:1800" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/NeuralStyleTransfer/lib/python3.6/site-packages/music21/converter/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="1087" selection-start-line="1087" selection-end-line="1087" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
+            <state relative-caret-position="15">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
-                <element signature="e#1#19#0" expanded="true" />
+                <marker date="1540868945792" expanded="true" signature="212:213" ph="..." />
               </folding>
             </state>
           </provider>
@@ -179,8 +156,11 @@
         <option value="$PROJECT_DIR$/Midi parse/parse.py" />
         <option value="$PROJECT_DIR$/Models.py" />
         <option value="$PROJECT_DIR$/python-midi/setup.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/GAN.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/pytorch-wavenet/train_script.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/SpecModels.py" />
       </list>
     </option>
   </component>
@@ -201,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,7 +193,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GAN">
+  <component name="RunManager" selected="Python.SpecModels">
     <configuration name="GAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Neural-Style-Transfer-Audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SpecModels" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Neural-Style-Transfer-Audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,51 +256,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="parse (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Neural-Style-Transfer-Audio" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Neural-Style-Transfer-Audio" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-midi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-midi/setup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpecModels.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,20 +287,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Neural-Style-Transfer-Audio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch-wavenet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch-wavenet/train_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Neural-Style-Transfer-Audio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Models" />
       <item itemvalue="Python.GAN" />
-      <item itemvalue="Python.parse (1)" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.setup" />
+      <item itemvalue="Python.util" />
+      <item itemvalue="Python.train_script" />
+      <item itemvalue="Python.SpecModels" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SpecModels" />
+        <item itemvalue="Python.train_script" />
+        <item itemvalue="Python.util" />
         <item itemvalue="Python.GAN" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Models" />
-        <item itemvalue="Python.setup" />
-        <item itemvalue="Python.parse (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -393,12 +373,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49673203" visible="true" weight="0.2657512" />
+      <window_info id="Structure" order="1" sideWeight="0.503268" side_tool="true" visible="true" weight="0.2657512" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,7 +392,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32956383" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -433,20 +413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/NeuralStyleTransfer/lib/python3.6/site-packages/music21/converter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="1087" selection-start-line="1087" selection-end-line="1087" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-midi/scripts/mididump.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#66#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,23 +427,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Util.py">
+    <entry file="file://$USER_HOME$/Desktop/NeuralStyleTransfer/lib/python3.6/site-packages/music21/converter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="16185">
+          <caret line="1087" selection-start-line="1087" selection-end-line="1087" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-wavenet/train_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           <folding>
-            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="31" column="39" selection-start-line="28" selection-start-column="3" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="2340">
+          <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
           <folding>
             <element signature="e#1#67#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -484,16 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="17" selection-start-line="2" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Midi parse/parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -501,13 +485,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAN.py">
+    <entry file="file://$PROJECT_DIR$/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
-            <element signature="e#1#13#0" expanded="true" />
-            <marker date="1540827471907" expanded="true" signature="1242:1800" ph="..." />
+            <marker date="1540868945792" expanded="true" signature="212:213" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecModels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+          <folding>
+            <element signature="e#21#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
