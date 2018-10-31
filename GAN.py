@@ -55,27 +55,20 @@ Songs=CompileMidi('./Midi_Data')
 Songlist=[]
 for i in Songs.keys():
     Songlist.append(i)
-print(Songlist)
-Goal = Songs[Songlist[random.randint(0,len(Songlist))]]
+Goal = Songs[Songlist[random.randint(0,len(Songlist)-1)]]
 print(Goal)
+In = np.random.normal(0,.3,Goal.shape)
+print(In.shape)
 
 
-# r=np.random.randint(2001,7000)
-# random_key = random.randint(0,len(Songlist))
-# Goal=Songs[random_key]
-#
-# r=0
-# Goal = np.take(Goal,range(r,75))
-# print(Goal.shape)
-# In= np.random.normal(0,1,size=(Goal.shape))
-#
-#
-#
-# model = keras.Sequential()
-# keras.layers.SimpleRNN(In.shape[0],activation='tanh',use_bias=True,kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',bias_initializer='zeros')
-#
-# model.compile(optimizer='adam',loss='mean_squared_error',metrics=['accuracy'])
+model = keras.Sequential()
+keras.layers.SimpleRNN(In.shape[0],activation='tanh',use_bias=True,kernel_initializer='glorot_uniform',recurrent_initializer='orthogonal',bias_initializer='zeros')
 
-# model.fit(In,Goal,100,10,verbose=1)
+model.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accuracy'])
+
+model.fit(In,Goal,100,1000,verbose=1)
+
+noise = np.random.normal(0,.3,Goal.shape)
+pred=model.predict(noise,200)
 
 
